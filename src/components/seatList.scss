@@ -1,0 +1,26 @@
+.seatList {
+  width: 100%;
+  .driver {
+    border-radius: 5px;
+    width: 100%;
+    background-color: #ddd;
+    color: #000;
+    font-size: 2rem;
+  }
+  .row {
+    width: 100%;
+    margin: auto;
+    .col-3 {
+      margin: 5px 0;
+      .seatItem {
+        // background-color: #6c737e;
+        border-radius: 5px;
+        margin: auto;
+        text-align: center;
+        width: 100%;
+        font-size: 2rem;
+        border: none;
+      }
+    }
+  }
+}
